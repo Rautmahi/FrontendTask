@@ -1,10 +1,12 @@
+import AllRoutes from "./Components/AllRoutes";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div >
-      <h1 className="text-3xl font-bold underline text-cyan-500">
-      Hello world!
-    </h1>
+     
+    <Navbar/>
+    <AllRoutes/>
     </div>
   );
 }
