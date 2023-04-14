@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <Box w="100%" h="60px" bgColor="teal-800"></Box>
-      <Box w="20%" h="600px" border="1px solid black" bgColor="teal" color="white">
+      <Box w="100%" h="60px" bgColor="grey"></Box>
+      <Box w="20%" h="600px"  bgColor="teal" color="white">
         <Link to="/contactpage">
           <Heading padding="50px" fontSize="30px" >Contact page</Heading>
         </Link>
