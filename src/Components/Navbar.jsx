@@ -1,20 +1,21 @@
+import { Box, Heading } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
-
+// className="text-2xl text-white-500 m-10  font-bold"
 const Navbar = () => {
   return (
     <>
-      <div className="w-[100%] h-[60px] bg-teal-800"></div>
-      <div className="w-[20%] h-[600px] border 1px solid bg-red-500 space-y-20  ">
+      <Box w="100%" h="60px" bgColor="teal-800"></Box>
+      <Box w="20%" h="600px" border="1px solid black" bgColor="teal" color="white">
         <Link to="/contactpage">
-          <h2 className="text-2xl text-white-500 m-10  font-bold">Contact page</h2>
+          <Heading padding="50px" fontSize="30px" >Contact page</Heading>
         </Link>
         <hr />
         <Link to="/charts&maps">
-          <h2 className="text-2xl text-white-500    m-10  font-bold">Charts and Maps</h2>
+          <Heading padding="50px" fontSize="30px">Charts and Maps</Heading>
         </Link>
         <hr />
-      </div>
+      </Box>
     </>
   );
 };
